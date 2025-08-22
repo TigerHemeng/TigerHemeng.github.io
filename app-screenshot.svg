@@ -1,0 +1,51 @@
+<svg width="260" height="520" viewBox="0 0 260 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#796EEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9B91F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 手机屏幕背景 -->
+  <rect width="260" height="520" rx="20" fill="url(#screenGradient)"/>
+  
+  <!-- 状态栏 -->
+  <rect x="20" y="20" width="220" height="30" rx="15" fill="rgba(255,255,255,0.1)"/>
+  <text x="130" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.8">9:41</text>
+  
+  <!-- 聊天界面模拟 -->
+  <!-- 顶部聊天标题栏 -->
+  <rect x="0" y="60" width="260" height="60" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="40" cy="90" r="15" fill="white" opacity="0.8"/>
+  <text x="65" y="88" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">John Doe</text>
+  <text x="65" y="102" fill="white" font-family="Arial, sans-serif" font-size="10" opacity="0.7">在线</text>
+  
+  <!-- 聊天消息气泡 -->
+  <!-- 接收的消息 -->
+  <rect x="20" y="140" width="140" height="35" rx="18" fill="rgba(255,255,255,0.9)"/>
+  <text x="30" y="160" fill="#333" font-family="Arial, sans-serif" font-size="12">你好！今天怎么样？</text>
+  
+  <!-- 发送的消息 -->
+  <rect x="100" y="190" width="140" height="35" rx="18" fill="white"/>
+  <text x="110" y="210" fill="#796EEB" font-family="Arial, sans-serif" font-size="12">很好，谢谢！你呢？</text>
+  
+  <!-- 更多消息 -->
+  <rect x="20" y="240" width="120" height="35" rx="18" fill="rgba(255,255,255,0.9)"/>
+  <text x="30" y="260" fill="#333" font-family="Arial, sans-serif" font-size="12">今晚有空吗？</text>
+  
+  <rect x="120" y="290" width="120" height="35" rx="18" fill="white"/>
+  <text x="130" y="310" fill="#796EEB" font-family="Arial, sans-serif" font-size="12">当然！见面聊</text>
+  
+  <!-- 输入框 -->
+  <rect x="20" y="460" width="220" height="40" rx="20" fill="rgba(255,255,255,0.9)"/>
+  <text x="30" y="483" fill="#999" font-family="Arial, sans-serif" font-size="12">输入消息...</text>
+  
+  <!-- 发送按钮 -->
+  <circle cx="220" cy="480" r="15" fill="white"/>
+  <path d="M215 475 L225 480 L215 485 Z" fill="#796EEB"/>
+  
+  <!-- 装饰性图标 -->
+  <circle cx="30" cy="380" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="40" cy="380" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="50" cy="380" r="3" fill="rgba(255,255,255,0.5)"/>
+</svg>
